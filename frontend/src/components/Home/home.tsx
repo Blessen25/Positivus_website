@@ -21,7 +21,7 @@ const Home_Comp = () => {
 
         <>
 
-            <Header scrolled={false}/>
+            <Header scrolled={scrolled}/>
             <div className="containerdiv">
                 <div style={{ height: "2000px" }}></div>
             </div>   
