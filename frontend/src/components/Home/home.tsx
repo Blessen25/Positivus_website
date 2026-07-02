@@ -38,9 +38,19 @@ const Header:React.FC<HeaderProps> = (Props) => {
     
         <>
             <div className={`header_div ${Props.scrolled ? "scrolled" : ""}`}>
-                <div className="icondiv">
-                    <img src="../../src/assets/images/Icon.png" className=""/> 
-                    <h1>Positivus</h1>
+                <div className="header-container">
+                    <div className="icondiv">
+                        <img src="../../src/assets/images/Icon.png" className="custom-icon"/> 
+                        <h1>Positivus</h1>
+                    </div>
+                    <div className="custom-anchordiv">
+
+                        <a href="#">About Us</a>
+                        <a href="#">Services</a>
+                        <a href="#">Use Cases</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Blog</a>
+                    </div>
                 </div>
             </div>
         </>
