@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type { HeaderProps } from "../../interface";
+import "./header.css";
 import "./home.css";
 const Home_Comp = () => {
 
@@ -37,7 +38,10 @@ const Header:React.FC<HeaderProps> = (Props) => {
     
         <>
             <div className={`header_div ${Props.scrolled ? "scrolled" : ""}`}>
-                <h1>Positivus</h1>
+                <div className="icondiv">
+                    <img src="../../src/assets/images/Icon.png" className=""/> 
+                    <h1>Positivus</h1>
+                </div>
             </div>
         </>
     )
