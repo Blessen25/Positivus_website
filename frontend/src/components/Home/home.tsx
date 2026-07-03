@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { HeaderProps } from "../../interface";
 import "./header.css";
 import "./home.css";
+import { Button_Comp_Clr } from "../Button/Button";
 const Home_Comp = () => {
 
     const [scrolled, setScrolled] = useState(false);
@@ -50,6 +51,7 @@ const Header:React.FC<HeaderProps> = (Props) => {
                         <a href="#">Use Cases</a>
                         <a href="#">Pricing</a>
                         <a href="#">Blog</a>
+                        <Button_Comp_Clr text='Request a quote'/>
                     </div>
                 </div>
             </div>

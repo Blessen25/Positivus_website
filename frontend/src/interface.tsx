@@ -6,7 +6,8 @@ export interface HeaderProps {
 export interface ButtonProps {
 
     text: string;
-    onClick: () => void;
+    route?: string;
+    onClick ?: () => void;
     className?: string;
     style?: React.CSSProperties;
 }
