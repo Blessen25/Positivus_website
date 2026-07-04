@@ -8,3 +8,42 @@
     font-family: 'Space Grotesk', sans-serif;
     background-color: whitesmoke;
 }
+
+.container-width{
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .container-width{
+
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+
+    .container-width{
+
+        width: 991px;
+    }
+}
+
+@media screen and (max-width: 1021px) {
+
+    .container-width{
+
+        width: 860px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .container-width{
+
+        width: 100%;
+        padding: 0 20px;
+    }
+}

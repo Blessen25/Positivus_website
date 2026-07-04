@@ -39,7 +39,7 @@ const Header:React.FC<HeaderProps> = (Props) => {
     
         <>
             <div className={`header_div ${Props.scrolled ? "scrolled" : ""}`}>
-                <div className="header-container">
+                <div className="header-container container-width">
                     <div className="icondiv">
                         <img src="../../src/assets/images/Icon.png" className="custom-icon"/> 
                         <h1>Positivus</h1>
