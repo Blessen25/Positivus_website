@@ -44,13 +44,14 @@ const Header:React.FC<HeaderProps> = (Props) => {
                         <img src="../../src/assets/images/Icon.png" className="custom-icon"/> 
                         <h1>Positivus</h1>
                     </div>
+                    <i className="fa-solid fa-bars custom-bars h3 fw-900"></i>
                     <div className="custom-anchordiv">
 
-                        <a href="#">About Us</a>
-                        <a href="#">Services</a>
-                        <a href="#">Use Cases</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Blog</a>
+                        <a href="#" className="text-md">About Us</a>
+                        <a href="#" className="text-md">Services</a>
+                        <a href="#" className="text-md">Use Cases</a>
+                        <a href="#" className="text-md">Pricing</a>
+                        <a href="#" className="text-md">Blog</a>
                         <Button_Comp_Clr text='Request a quote'/>
                     </div>
                 </div>

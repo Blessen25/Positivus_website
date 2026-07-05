@@ -49,8 +49,28 @@
 
     text-decoration: none;
     color: var(--Black);
-    font-size: 16px;
     font-weight: 500;
     cursor: none;
+}
+
+.custom-bars {
+
+    display: none;
+    color: var(--Black);
+}
+
+@media screen and (max-width: 991px) {
+
+    .custom-anchordiv {
+
+        display: none;
+    }
+
+    .custom-bars {
+
+        display: block;
+        cursor: pointer;
+        user-select: none;
+    }
 }
 
