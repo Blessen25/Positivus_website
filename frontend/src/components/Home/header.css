@@ -59,6 +59,16 @@
     color: var(--Black);
 }
 
+.sidebaractive {
+
+    display: none
+}
+
+.sidebarinactive {
+
+    display: block 
+}
+
 @media screen and (max-width: 991px) {
 
     .custom-anchordiv {
@@ -72,5 +82,22 @@
         cursor: pointer;
         user-select: none;
     }
+
+    .header_div {
+
+        height: 60px;
+    }
+    
+    .header-container {
+
+        flex-direction: row-reverse;
+    }
 }
 
+@media screen and (max-width: 575px) {
+
+    .container-width {
+
+        padding: 0px 15px;
+    }
+}

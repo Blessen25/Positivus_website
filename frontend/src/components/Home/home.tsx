@@ -35,6 +35,11 @@ export default Home_Comp;
 
 const Header:React.FC<HeaderProps> = (Props) => {
 
+    const [sidebaractive, setSidebarActive] = useState(false);
+    const handleSidebarToggle = () => {
+
+        setSidebarActive(!sidebaractive);
+    }
     return(
     
         <>
@@ -44,7 +49,7 @@ const Header:React.FC<HeaderProps> = (Props) => {
                         <img src="../../src/assets/images/Icon.png" className="custom-icon"/> 
                         <h1>Positivus</h1>
                     </div>
-                    <i className="fa-solid fa-bars custom-bars h3 fw-900"></i>
+                    <i className={`fa-solid fa-bars custom-bars h1 fw-900 ${sidebaractive ? "sidebaractive" : "sidebarinactive"}`} onClick={handleSidebarToggle}></i>
                     <div className="custom-anchordiv">
 
                         <a href="#" className="text-md">About Us</a>
