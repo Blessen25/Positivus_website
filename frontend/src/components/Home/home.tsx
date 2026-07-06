@@ -61,6 +61,17 @@ const Header:React.FC<HeaderProps> = (Props) => {
                     </div>
                 </div>
             </div>
+
+            {sidebaractive && (
+
+                <>
+
+                    <div className="overlay_sidebar"></div>
+                    <div className="sidebar">
+
+                    </div>
+                </>
+            )}
         </>
     )
 }
