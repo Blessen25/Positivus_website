@@ -67,7 +67,18 @@ const Header:React.FC<HeaderProps> = (Props) => {
 
                     <div className="overlay_sidebar"></div>
                     <div className="sidebar">
-
+                        <div className="sidebar-close">
+                            <i className={`fa-solid fa-close text-sm }`} onClick={handleSidebarToggle}></i>
+                        </div>
+                        <div className="sidebar-anchor">
+                            
+                            <a href="#" className="text-md">About Us</a>
+                            <a href="#" className="text-md">Services</a>
+                            <a href="#" className="text-md">Use Cases</a>
+                            <a href="#" className="text-md">Pricing</a>
+                            <a href="#" className="text-md">Blog</a>
+                            <Button_Comp_Clr text='Request a quote'/>
+                        </div>
                     </div>
                 </>
             )}

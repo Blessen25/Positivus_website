@@ -56,18 +56,10 @@
 .custom-bars {
 
     display: none;
-    color: var(--Black);
+    color: rgba(20, 20, 20, 0.467);
 }
 
-.sidebaractive {
 
-    display: none
-}
-
-.sidebarinactive {
-
-    display: block 
-}
 .overlay_sidebar {
 
     display: none;
@@ -94,17 +86,50 @@
     }
 
     .sidebar {
-
         
         position: fixed;
         top: 61px;
         Left: 0px;
-        width: 250px;
+        width: 300px;
         height: 100%;
         z-index: 1000;
         display: block;
-        background-color: var(--Primary_Color);
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        transition: transform 0.75s linear;
+        transform: translateX(0px);
     }
+
+    .sidebaractive {
+
+        transition: all 0.7s;
+        color: var(--Black);
+    }
+
+    .sidebar-anchor {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar-anchor a {
+
+        text-decoration: none;
+        color: var(--Black);
+        font-weight: 500;
+        cursor: none;
+    }
+
+    .sidebar-close {
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    
 
     .custom-anchordiv {
 
@@ -134,5 +159,10 @@
     .container-width {
 
         padding: 0px 15px;
+    }
+
+    .sidebar {
+
+        width: 240px;
     }
 }
