@@ -25,7 +25,6 @@ const Home_Comp = () => {
 
             <Header scrolled={scrolled}/>
             <div className="containerdiv">
-                <div style={{ height: "2000px" }}></div>
             </div>   
         </>
     )
@@ -49,7 +48,7 @@ const Header:React.FC<HeaderProps> = (Props) => {
                         <img src="../../src/assets/images/Icon.png" className="custom-icon"/> 
                         <h1>Positivus</h1>
                     </div>
-                    <i className={`fa-solid fa-bars custom-bars h1 fw-900 ${sidebaractive ? "sidebaractive" : "sidebarinactive"}`} onClick={handleSidebarToggle}></i>
+                    <i className={`fa-solid fa-bars custom-bars h1 fw-900 ${sidebaractive ? "sidebaractive" : ""}`} onClick={handleSidebarToggle}></i>
                     <div className="custom-anchordiv">
 
                         <a href="#" className="text-md">About Us</a>
