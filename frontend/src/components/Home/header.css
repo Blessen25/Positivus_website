@@ -83,6 +83,14 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
     display: block;
+    opacity: 0;
+    visibility: hidden;
+    }
+
+    .overlay_sidebar.overlayactive {
+    
+        opacity: 1;
+        visibility: visible;
     }
 
     .sidebar {
@@ -96,13 +104,13 @@
         display: block;
         padding: 20px;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-        transition: transform 0.75s ease-in-out;
+        transition: transform 0.3s ease-in-out;
         transform: translateX(-100%);
     }
 
-    .sidebar .sidebaropen {
+    .sidebar.sidebaropen {
 
-        transform: translateX(0%) !important;
+        transform: translateX(0%);
     }
 
     .sidebaractive {

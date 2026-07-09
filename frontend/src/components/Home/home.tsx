@@ -63,7 +63,7 @@ const Header:React.FC<HeaderProps> = (Props) => {
 
                 <>
 
-                    <div className="overlay_sidebar"></div>
+                    <div className={`overlay_sidebar ${sidebaractive ? "overlayactive" : ""}`}></div>
                     <div className={`sidebar ${sidebaractive ? "sidebaropen" : ""}`}>
                         <div className="sidebar-close">
                             <i className={`fa-solid fa-close text-sm }`} onClick={handleSidebarToggle}></i>
