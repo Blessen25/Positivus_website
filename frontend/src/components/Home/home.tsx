@@ -24,7 +24,8 @@ const Home_Comp = () => {
         <>
 
             <Header scrolled={scrolled}/>
-            <div className="containerdiv">
+            <div className="containerdiv container-width">
+                <h1>This is a program</h1>
             </div>   
         </>
     )

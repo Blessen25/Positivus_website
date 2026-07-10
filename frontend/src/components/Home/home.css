@@ -1,5 +1,23 @@
 .containerdiv {
 
-  margin-top: 80px; /* Same as header height */
+  margin-top: 80px; 
+  padding: 15px 0px;
 }
 
+
+@media screen and (max-width: 991px) {
+
+    .containerdiv {
+
+        margin-top: 60px; 
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .containerdiv {
+
+        padding: 10px; 
+    }
+}
