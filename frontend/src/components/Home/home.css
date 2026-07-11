@@ -1,7 +1,10 @@
 .containerdiv {
 
   margin-top: 80px; 
-  padding: 15px 0px;
+  padding: 55px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .home_firstsection {
@@ -10,20 +13,28 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
-    border: 1px solid black;
 }
 
 .home_first_Contentsec {
 
-    width: 40%;
+    width: 44%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
+
+}
+
+.home_firstsection_img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .home_first_Imagesec {
 
-    width: 60%;
+    width: 45%;
 }
 
 .bookaconsclass {
@@ -32,6 +43,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.navigatecontent {
+
+    font-size: 56px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {

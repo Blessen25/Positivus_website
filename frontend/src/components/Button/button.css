@@ -6,6 +6,8 @@
     border-color: var(--Black);
     border: 1px solid var(--Black);
     transition: all 0.4s ease-in-out;
+    text-decoration: none !important;
+
 }
 
 .buttondiv:hover {
@@ -24,6 +26,7 @@
     background-color: var(--Black);
     color: white !important;
     transition: all 0.4s ease-in-out;
+    text-decoration: none !important;
 }
 
 .buttondivclr:hover {
