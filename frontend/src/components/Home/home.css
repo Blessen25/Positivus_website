@@ -4,6 +4,35 @@
   padding: 15px 0px;
 }
 
+.home_firstsection {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+.home_first_Contentsec {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home_first_Imagesec {
+
+    width: 60%;
+}
+
+.bookaconsclass {
+
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media screen and (max-width: 991px) {
 

@@ -25,7 +25,7 @@ const Home_Comp = () => {
 
             <Header scrolled={scrolled}/>
             <div className="containerdiv container-width">
-                <h1>This is a program</h1>
+                <Home_firstSection/>
             </div>   
         </>
     )
@@ -80,6 +80,27 @@ const Header:React.FC<HeaderProps> = (Props) => {
                         </div>
                     </div>
                 </>
+        </>
+    )
+}
+
+const Home_firstSection:React.FC = () => {
+
+    return(
+
+        <>
+            <div className="home_firstsection">
+
+                <div className="home_first_Contentsec">
+
+                    <h1 className="h1" >Navigating the digital landscape for success</h1>
+                    <p className="text-md">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                    <Button_Comp_Clr text="Book a Consultation" className="bookaconsclass"/>
+                </div>
+                <div className="home_first_Imagesec">
+
+                </div>
+            </div>
         </>
     )
 }
