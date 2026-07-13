@@ -91,7 +91,38 @@
     .containerdiv {
 
         margin-top: 60px; 
-        padding: 15px 20px; 
+        padding: 30px 20px; 
+    }
+
+    .home_first_Imagesec {
+
+        width: 284px;
+    }
+
+    .navigatecontent {
+
+        font-size: 36px;
+    }
+    
+
+    .home_firstsection_img {
+        
+        width: 281px;
+        height: 250px;
+    }
+
+    .home_first_Contentsec {
+
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .containerdiv {
+
+        margin-top: 60px; 
+        padding: 20px; 
     }
 }
 
@@ -99,6 +130,6 @@
 
     .containerdiv {
 
-        padding: 10px 15px; 
+        padding: 15px; 
     }
 }
