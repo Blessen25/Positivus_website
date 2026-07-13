@@ -94,7 +94,7 @@ const Home_firstSection:React.FC = () => {
                 <div className="home_first_Contentsec">
 
                     <h1 className="navigatecontent" >Navigating the digital landscape for success</h1>
-                    <p className="text-bg">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                    <p className="text-md">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
                     <Button_Comp_Clr text="Book a Consultation" className="bookaconsclass"/>
                 </div>
                 <div className="home_first_Imagesec">   
