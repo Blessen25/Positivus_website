@@ -51,6 +51,11 @@
     font-weight: 500;
 }
 
+.home_firstsection_img_navigate {
+
+    display: none;
+}
+
 @media screen and (max-width: 1300px) {
 
     .home_first_Imagesec {
@@ -124,6 +129,35 @@
         margin-top: 60px; 
         padding: 20px; 
     }
+
+    .home_first_Imagesec {
+
+        display: none;
+    }
+
+    .home_firstsection_img_navigate {
+
+        display: block;
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        margin: auto;
+    }
+
+    .home_first_Contentsec {
+
+        width: 100%;
+    }
+
+    .navigatecontent {
+
+        font-size: 32px;
+    }
+
+    .bookaconsclass {
+
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -131,5 +165,16 @@
     .containerdiv {
 
         padding: 15px; 
+    }
+
+    .navigatecontent {
+
+        font-size: 18px;
+    } 
+
+    .home_firstsection_img_navigate {
+
+        width: 250px;
+        height: 210px;
     }
 }
