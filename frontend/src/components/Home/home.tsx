@@ -3,6 +3,14 @@ import type { HeaderProps } from "../../interface";
 import "./header.css";
 import "./home.css";
 import { Button_Comp_Clr } from "../Button/Button";
+import amazon from "../../../src/assets/images/Logo/Amazon_Logo.png";
+import dribble from "../../../src/assets/images/Logo/Dribble_Logo.png";
+import hubspot from "../../../src/assets/images/Logo/Hubspot_Logo.png";
+import notion from "../../../src/assets/images/Logo/Notion_Logo.png";
+import netflix from "../../../src/assets/images/Logo/Netflix_Logo.png";
+import zoom from "../../../src/assets/images/Logo/Zoom_Logo.png";
+
+
 const Home_Comp = () => {
 
     const [scrolled, setScrolled] = useState(false);
@@ -26,6 +34,7 @@ const Home_Comp = () => {
             <Header scrolled={scrolled}/>
             <div className="containerdiv container-width">
                 <Home_firstSection/>
+                <Home_secondSection />
             </div>   
         </>
     )
@@ -102,6 +111,25 @@ const Home_firstSection:React.FC = () => {
 
                     <img src="../../src/assets/images/home_one_sec.png" alt="home_firstsection" className="home_firstsection_img" loading="lazy"/>
                 </div>  
+            </div>
+        </>
+    )
+}
+
+const Home_secondSection:React.FC = () => {
+
+    const Logos = [
+
+    
+    ]
+
+    return(
+
+        <>
+
+            <div className="second_section_div">
+
+                <img loading="lazy" />
             </div>
         </>
     )

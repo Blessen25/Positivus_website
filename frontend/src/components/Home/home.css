@@ -4,7 +4,7 @@
   padding: 55px 0px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 55px;
 }
 
 .home_firstsection {
@@ -56,6 +56,15 @@
     display: none;
 }
 
+.second_section_div {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid black
+
+}
+
 @media screen and (max-width: 1300px) {
 
     .home_first_Imagesec {
@@ -97,6 +106,7 @@
 
         margin-top: 60px; 
         padding: 30px 20px; 
+        gap: 30px;
     }
 
     .home_first_Imagesec {
@@ -128,6 +138,7 @@
 
         margin-top: 60px; 
         padding: 20px; 
+        gap: 20px;
     }
 
     .home_first_Imagesec {
@@ -165,6 +176,7 @@
     .containerdiv {
 
         padding: 15px; 
+        gap: 15px;
     }
 
     .navigatecontent {
