@@ -120,7 +120,12 @@ const Home_secondSection:React.FC = () => {
 
     const Logos = [
 
-    
+        {src: amazon, alt: "Amazon Logo"},
+        {src: dribble, alt: "Dribble Logo"},
+        {src: hubspot, alt: "Hubspot Logo"},
+        {src: notion, alt: "Notion Logo"},
+        {src: netflix, alt: "Netflix Logo"},
+        {src: zoom, alt: "Zoom Logo"},
     ]
 
     return(
