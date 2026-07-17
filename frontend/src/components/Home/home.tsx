@@ -134,11 +134,11 @@ const Home_secondSection:React.FC = () => {
 
             <div className="second_section_div">
 
-                <div className="logo-track">
+                <div className="logo_track">
 
                     {[...Logos,  ...Logos].map((Logo, index) => (
 
-                        <img src={Logo.src} alt={Logo.alt} key={index} loading="lazy"/>
+                        <img src={Logo.src} alt={Logo.alt} key={index} loading="lazy" className="logo_image"/>
                     ))}
                 </div>
             </div>

@@ -60,7 +60,26 @@
 
     width: 100%;
     overflow: hidden;
-    border: 1px solid black;
+}
+
+.logo_track {
+
+    display: flex;
+    width: max-content;
+    gap: 50px;
+    animation: slide 12s linear infinite;
+}
+
+.logo_image {
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.logo_track:hover {
+
+    animation-play-state: paused;
 }
 
 @media screen and (max-width: 1300px) {
@@ -186,5 +205,28 @@
 
         width: 250px;
         height: 210px;
+    }
+
+    .logo_track {
+
+        gap: 30px;
+    }
+
+    .logo_image {
+        width: 80px;
+        height: 30px;
+    }
+}
+
+@keyframes slide {
+
+    from {
+
+        transform: translateX(0);
+    }
+
+    to { 
+
+        transform: translateX(-50%);
     }
 }
