@@ -58,11 +58,9 @@
 
 .second_section_div {
 
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    border: 1px solid black
-
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 1300px) {

@@ -134,7 +134,13 @@ const Home_secondSection:React.FC = () => {
 
             <div className="second_section_div">
 
-                <img loading="lazy" />
+                <div className="logo-track">
+
+                    {[...Logos,  ...Logos].map((Logo, index) => (
+
+                        <img src={Logo.src} alt={Logo.alt} key={index} loading="lazy"/>
+                    ))}
+                </div>
             </div>
         </>
     )
