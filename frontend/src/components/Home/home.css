@@ -82,6 +82,22 @@
     animation-play-state: paused;
 }
 
+.service-content {
+
+    padding: 10px;
+    background-color: var(--Primary_Color);
+    border-radius: 10px;
+}
+
+.third_section_div {
+
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
 @media screen and (max-width: 1300px) {
 
     .home_first_Imagesec {
@@ -215,6 +231,11 @@
     .logo_image {
         width: 80px;
         height: 30px;
+    }
+
+    .third_section_div {
+
+        gap: 15px;
     }
 }
 

@@ -35,6 +35,7 @@ const Home_Comp = () => {
             <div className="containerdiv container-width">
                 <Home_firstSection/>
                 <Home_secondSection />
+                <Home_thirdSection />
             </div>   
         </>
     )
@@ -141,6 +142,23 @@ const Home_secondSection:React.FC = () => {
                         <img src={Logo.src} alt={Logo.alt} key={index} loading="lazy" className="logo_image"/>
                     ))}
                 </div>
+            </div>
+        </>
+    )
+}
+
+const Home_thirdSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="third_section_div">
+
+                    <h3 className="h2 service-content">Services</h3>
+                    <div className="text-md">
+                        At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
+                    </div>
             </div>
         </>
     )
