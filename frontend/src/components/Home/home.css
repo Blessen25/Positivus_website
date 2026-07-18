@@ -104,9 +104,8 @@
     width: 100%;
     display: flex;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between
 }
 
 @media screen and (max-width: 1300px) {
