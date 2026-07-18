@@ -9,6 +9,7 @@ import hubspot from "../../../src/assets/images/Logo/Hubspot_Logo.png";
 import notion from "../../../src/assets/images/Logo/Notion_Logo.png";
 import netflix from "../../../src/assets/images/Logo/Netflix_Logo.png";
 import zoom from "../../../src/assets/images/Logo/Zoom_Logo.png";
+import { Services_Comp } from "../Extra";
 
 
 const Home_Comp = () => {
@@ -36,6 +37,7 @@ const Home_Comp = () => {
                 <Home_firstSection/>
                 <Home_secondSection />
                 <Home_thirdSection />
+                <Home_fourthSection />
             </div>   
         </>
     )
@@ -159,6 +161,22 @@ const Home_thirdSection:React.FC = () => {
                     <div className="text-md">
                         At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
                     </div>
+            </div>
+        </>
+    )
+}
+
+const Home_fourthSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="fourth_section_div">
+
+                   <Services_Comp />
+                   <Services_Comp />
+
             </div>
         </>
     )

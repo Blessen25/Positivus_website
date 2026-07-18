@@ -98,6 +98,17 @@
     
 }
 
+.fourth_section_div {
+
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 1300px) {
 
     .home_first_Imagesec {

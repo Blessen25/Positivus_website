@@ -1,11 +1,12 @@
 import './extra.css';
 
-const Extra = () => {
+const Services_Comp = () => {
 
-    return(
-        
-        <></>
+    return (
+        <div className="services_box">
+            
+        </div>
     )
 }
 
-export default Extra;
+export { Services_Comp };
