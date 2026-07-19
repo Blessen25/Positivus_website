@@ -53,6 +53,7 @@
 .arrow_btn i {
 
     font-size: 18px;
-    color: var(--Black);   /* or #191A23 */
+    color: var(--Black);   
     transform: rotate(45deg);
+    background: transparent;
 }
