@@ -28,7 +28,7 @@
 .service_button {
 
     display: flex;
-    gap: 20px;
+    gap: 14px;
     align-items: center;
 }
 
@@ -56,4 +56,9 @@
     color: var(--Black);   
     transform: rotate(45deg);
     background: transparent;
+}
+
+.service_img img{
+
+    object-fit: cover;
 }
