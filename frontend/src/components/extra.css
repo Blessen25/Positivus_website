@@ -63,3 +63,14 @@
 
     object-fit: cover;
 }
+
+.grey_cstm {
+
+    background-color: var(--Grey);
+}
+
+.black_primary_cstm {
+
+    color: var(--Black);
+    background: var(--Primary_Color);
+}
