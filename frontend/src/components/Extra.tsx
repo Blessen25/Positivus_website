@@ -1,13 +1,14 @@
+import type { Services_Comp_Props } from '../interface';
 import './extra.css';
 
-const Services_Comp = () => {
+const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
     return (
-        <div className="services_box">
+        <div className={`services_box ${Props.background_clr ? Props.background_clr : ""}`}>
             
             <div className="service_content">
 
-                <p className="h4">Search Engine Optimization</p>
+                <p className={`h4 ${Props.title_background_clr ? Props.title_background_clr : ""}`}>{Props.title}</p>
                 
                 <div className="service_button">
 
@@ -19,7 +20,7 @@ const Services_Comp = () => {
             </div>
             <div className="service_img">
 
-                <img src="../../src/assets/images/service/service_one.png" alt="Service Images" loading='lazy'/>
+                <img src={`${Props.image}`} alt="Service Images" loading='lazy'/>
             </div>
         </div>
     )
