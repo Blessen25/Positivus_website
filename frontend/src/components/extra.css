@@ -73,6 +73,16 @@
 
 .black_primary_cstm {
 
-    color: var(--Black);
-    background: var(--Primary_Color);
+    color: var(--Black) ;
+    background: var(--Primary_Color) ;
+}
+
+.primary_black_cstm {
+
+    background: var(--Black);
+}
+
+.primary_black_cstm i{
+
+    color: var(--Primary_Color);
 }

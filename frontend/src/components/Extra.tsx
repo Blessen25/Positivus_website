@@ -7,12 +7,15 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
         <div className={`services_box ${Props.background_clr ? Props.background_clr : ""}`}>
             
             <div className={`service_content ${Props.service_background_clr ? Props.service_background_clr : ""}`}>
+                <div className="service_details">
 
-                <p className={`h4 ${Props.title_background_clr ? Props.title_background_clr : ""}`}>{Props.title}</p>
+                <p className={`h4 ${Props.title_background_clr ? Props.title_background_clr : ""}`}>{Props.title_one}</p>
+                <p className={`h4 ${Props.title_background_clr ? Props.title_background_clr : ""}`}>{Props.title_two}</p>
+                </div>
                 
                 <div className="service_button">
 
-                        <div className="arrow_btn">
+                        <div className={`arrow_btn ${Props.btn_clr ? Props.btn_clr : ""}`}>
                             <i className="fa-solid fa-arrow-up"></i>
                         </div>
                         <p>Learn More</p>

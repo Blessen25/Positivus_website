@@ -174,7 +174,7 @@ const Home_fourthSection:React.FC = () => {
 
             <div className="fourth_section_div">
 
-                   <Services_Comp title={"Search Engine Optimization"} image={"../../src/assets/images/service/service_one.png"} background_clr="grey_cstm" title_background_clr="black_primary_cstm" service_background_clr="grey_cstm"/>
+                   <Services_Comp title_one={"Search Engine"} title_two={"Optimization"} image={"../../src/assets/images/service/service_one.png"} background_clr="grey_cstm" title_background_clr="black_primary_cstm" service_background_clr="grey_cstm" btn_clr="primary_black_cstm"/>
                    <Services_Comp />
                    <Services_Comp />
                    <Services_Comp />
