@@ -6,7 +6,7 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
     return (
         <div className={`services_box ${Props.background_clr ? Props.background_clr : ""}`}>
             
-            <div className="service_content">
+            <div className={`service_content ${Props.service_background_clr ? Props.service_background_clr : ""}`}>
 
                 <p className={`h4 ${Props.title_background_clr ? Props.title_background_clr : ""}`}>{Props.title}</p>
                 
@@ -18,7 +18,7 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
                         <p>Learn More</p>
                 </div>
             </div>
-            <div className="service_img">
+            <div className={`service_img ${Props.service_background_clr ? Props.service_background_clr : "" } }`}>
 
                 <img src={`${Props.image}`} alt="Service Images" loading='lazy'/>
             </div>

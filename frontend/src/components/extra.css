@@ -62,11 +62,13 @@
 .service_img img{
 
     object-fit: cover;
+    background: transparent !important;
 }
 
 .grey_cstm {
 
     background-color: var(--Grey);
+    
 }
 
 .black_primary_cstm {

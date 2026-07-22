@@ -19,4 +19,5 @@ export interface Services_Comp_Props {
     title_background_clr ?: string;
     background_clr ?: string;
     btn_clr ?: string;
+    service_background_clr ?: string;
 }
