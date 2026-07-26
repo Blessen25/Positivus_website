@@ -23,7 +23,7 @@
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .service_button {
@@ -129,4 +129,72 @@
 .grey_clr {
 
     color: var(--Grey);
+}
+
+@media screen and (max-width: 1124px) {
+
+    .services_box {
+
+        width: 48.9%;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+
+    .services_box {
+
+        width: 48.8%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .services_box {
+        
+        padding: 30px;
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        gap: 20px
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    .services_box {
+        
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        gap: 20px
+    }
+
+    .arrow_btn {
+
+        width: 25px;
+        height: 25px;
+    }
+
+    .arrow_btn i {
+
+        font-size: 12px;
+    }
+
+    .service_button {
+
+        gap: 8px;
+    }
+
+    .service_details p {
+
+        padding: 0px 3px;
+    }
+
+    .service_img img {
+
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
 }
