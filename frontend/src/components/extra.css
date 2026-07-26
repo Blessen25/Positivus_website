@@ -118,6 +118,7 @@
 .service_details p {
 
     display: inline-block;
+    padding: 0px 4px;
 }
 
 .service_details {
