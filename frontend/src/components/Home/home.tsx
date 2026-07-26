@@ -176,7 +176,7 @@ const Home_fourthSection:React.FC = () => {
 
                    <Services_Comp title_one={"Search engine"} title_two={"optimization"} image={"../../src/assets/images/service/service_one.png"} background_clr="grey_cstm" title_background_clr="black_primary_cstm" service_background_clr="grey_cstm" btn_clr="primary_black_cstm"/>
                    <Services_Comp title_one={"Pay-per-click"} title_two="advertising" image={"../../src/assets/images/service/service_two.png"} background_clr="primary_cstm" title_background_clr="white_primary_cstm" service_background_clr="primary_cstm" btn_clr="primary_black_cstm"/>
-                   <Services_Comp />
+                   <Services_Comp title_one={"Social Media"} title_two="Marketing" image={"../../src/assets/images/service/service_three.png"} background_clr="black_cstm" title_background_clr="white_primary_cstm" service_background_clr="black_cstm" btn_clr="primary_white_cstm" learn_more_clr="grey_clr"/>
                    <Services_Comp />
             </div>
         </>

@@ -18,7 +18,7 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
                         <div className={`arrow_btn ${Props.btn_clr ? Props.btn_clr : ""}`}>
                             <i className="fa-solid fa-arrow-up"></i>
                         </div>
-                        <p>Learn More</p>
+                        <p className={`${Props.learn_more_clr ? Props.learn_more_clr : ""}`}>Learn More</p>
                 </div>
             </div>
             <div className={`service_img ${Props.service_background_clr ? Props.service_background_clr : "" } }`}>

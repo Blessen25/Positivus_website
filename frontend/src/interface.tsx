@@ -22,4 +22,5 @@ export interface Services_Comp_Props {
     btn_clr ?: string;
     btn_title_clr ?: string;
     service_background_clr ?: string;
+    learn_more_clr ?: string;
 }

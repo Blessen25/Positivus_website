@@ -77,6 +77,11 @@
     
 }
 
+.black_cstm {
+
+    background-color: var(--Black);
+}
+
 .primary_cstm {
 
     background-color: var(--Primary_Color);
@@ -104,6 +109,12 @@
     color: var(--Primary_Color);
 }
 
+.primary_white_cstm {
+
+    background-color: var(--Grey);
+    color: var(--Black);
+}
+
 .service_details p {
 
     display: inline-block;
@@ -112,4 +123,9 @@
 .service_details {
 
     background: transparent;
+}
+
+.grey_clr {
+
+    color: var(--Grey);
 }
