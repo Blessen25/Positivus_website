@@ -38,6 +38,7 @@ const Home_Comp = () => {
                 <Home_secondSection />
                 <Home_thirdSection />
                 <Home_fourthSection />
+                <Home_fifthsection />
             </div>   
         </>
     )
@@ -180,6 +181,28 @@ const Home_fourthSection:React.FC = () => {
                    <Services_Comp title_one={"Email"} title_two={"Marketing"} image={"../../src/assets/images/service/service_four.png"} background_clr="grey_cstm" title_background_clr="black_primary_cstm" service_background_clr="grey_cstm" btn_clr="primary_black_cstm"/>
                    <Services_Comp title_one={"Content"} title_two={"Creation"} image={"../../src/assets/images/service/service_five.png"} background_clr="primary_cstm" title_background_clr="white_primary_cstm" service_background_clr="primary_cstm" btn_clr="primary_black_cstm"/>
                    <Services_Comp title_one={"Analytics and"} title_two={"Tracking"} image={"../../src/assets/images/service/service_six.png"} background_clr="black_cstm" title_background_clr="white_primary_cstm" service_background_clr="black_cstm" btn_clr="primary_white_cstm" learn_more_clr="grey_clr"/>
+            </div>
+        </>
+    )
+}
+
+const Home_fifthsection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="fifth_section_div">
+
+                <div className="fifth_firstsection_div">
+
+                    <p className="h2">Let’s make things happen</p>
+                    <p className="text-md">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+                    <Button_Comp_Clr text="Get your Free Proposal" className="geturfreebtn"/>
+                </div>
+                <div className="fifth_secondsection_div">
+
+                </div>
             </div>
         </>
     )
