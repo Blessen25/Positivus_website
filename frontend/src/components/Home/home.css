@@ -110,20 +110,22 @@
 .fifth_section_div {
 
     width: 100%;
-    border: 1px solid black;
     display: flex;
     gap: 20px;
     justify-content: space-between;
     border-radius: 30px;
-    padding: 50px;
+    background-color: var(--Grey);
 }
 
 .fifth_firstsection_div {
-
+    
+    padding: 70px;
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: var(--Grey);
+    border-radius: 30px;
 }
 
 .geturfreebtn {
@@ -131,13 +133,37 @@
     width: 220px;
 }
 
+.fifth_secondsection_div {
 
+    width: 40%;
+    position: relative;
+    background-color: var(--Grey);
+    border-radius: 30px;
+}
+
+.fifth_sec_img {
+
+    position: absolute;
+    top:-30px;
+    right: 40px;
+    background-color: transparent;
+}
 
 @media screen and (max-width: 1300px) {
 
     .home_first_Imagesec {
 
         width: 41%;
+    }
+
+    .fifth_firstsection_div {
+
+        width: 55%;
+    }
+
+    .fifth_secondsection_div {
+
+        width: 45%;
     }
 }
 
@@ -152,6 +178,11 @@
 
         font-size: 46px;
     }
+
+    .fifth_sec_img {
+
+        top: -12px;
+    }
 }
 
 @media screen and (max-width: 1021px) {
@@ -164,6 +195,11 @@
     .navigatecontent {
 
         font-size: 46px;
+    }
+
+    .fifth_sec_img {
+
+        top: -20px;
     }
 }
 
@@ -197,6 +233,23 @@
     .home_first_Contentsec {
 
         width: 55%;
+    }
+    
+    .fifth_sec_img {
+
+        width: 250px;
+        top: 0px;
+    }
+
+    .fifth_firstsection_div {
+
+        padding: 50px;
+        width: 400px;
+    }
+
+    .fifth_secondsection_div {
+
+        width: 292px;
     }
 }
 
@@ -236,6 +289,17 @@
     .bookaconsclass {
 
         width: 100%;
+    }
+
+    .fifth_secondsection_div {
+
+        display: none;
+    }
+
+    .fifth_firstsection_div  {
+
+        width: 100%;
+        padding: 30px;
     }
 }
 

@@ -193,8 +193,7 @@
 
     .service_img img {
 
-        width: 150px;
-        height: 150px;
-        object-fit: contain;
+        width: 120px;
+        object-fit: cover;
     }
 }

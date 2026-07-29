@@ -202,6 +202,7 @@ const Home_fifthsection:React.FC = () => {
                 </div>
                 <div className="fifth_secondsection_div">
 
+                    <img src="../../src/assets/images/Fifth_Sec_image.png" alt="fifth_section" loading="lazy" className="fifth_sec_img"/>
                 </div>
             </div>
         </>
