@@ -39,6 +39,7 @@ const Home_Comp = () => {
                 <Home_thirdSection />
                 <Home_fourthSection />
                 <Home_fifthsection />
+                <Home_sixSection />
             </div>   
         </>
     )
@@ -204,6 +205,23 @@ const Home_fifthsection:React.FC = () => {
 
                     <img src="../../src/assets/images/Fifth_Sec_image.png" alt="fifth_section" loading="lazy" className="fifth_sec_img"/>
                 </div>
+            </div>
+        </>
+    )
+}
+
+const Home_sixSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="third_section_div">
+
+                    <h3 className="h2 service-content">Case Studies</h3>
+                    <div className="text-md">
+                        Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
+                    </div>
             </div>
         </>
     )

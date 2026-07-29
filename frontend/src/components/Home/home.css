@@ -4,7 +4,7 @@
   padding: 55px 0px;
   display: flex;
   flex-direction: column;
-  gap: 55px;
+  gap: 60px;
 }
 
 .home_firstsection {
@@ -139,6 +139,8 @@
     position: relative;
     background-color: var(--Grey);
     border-radius: 30px;
+    user-select: none;
+
 }
 
 .fifth_sec_img {
@@ -147,6 +149,7 @@
     top:-30px;
     right: 40px;
     background-color: transparent;
+    user-select: none;
 }
 
 @media screen and (max-width: 1300px) {
