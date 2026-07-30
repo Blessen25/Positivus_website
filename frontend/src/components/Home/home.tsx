@@ -40,6 +40,7 @@ const Home_Comp = () => {
                 <Home_fourthSection />
                 <Home_fifthsection />
                 <Home_sixSection />
+                <Home_sevenSection />
             </div>   
         </>
     )
@@ -222,6 +223,19 @@ const Home_sixSection:React.FC = () => {
                     <div className="text-md">
                         Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
                     </div>
+            </div>
+        </>
+    )
+}
+
+const Home_sevenSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="seven_section_div">
+                
             </div>
         </>
     )
