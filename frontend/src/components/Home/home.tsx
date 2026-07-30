@@ -41,6 +41,8 @@ const Home_Comp = () => {
                 <Home_fifthsection />
                 <Home_sixSection />
                 <Home_sevenSection />
+                <Home_sixSection />
+
             </div>   
         </>
     )
