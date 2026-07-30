@@ -41,8 +41,6 @@ const Home_Comp = () => {
                 <Home_fifthsection />
                 <Home_sixSection />
                 <Home_sevenSection />
-                <Home_sixSection />
-
             </div>   
         </>
     )
@@ -238,6 +236,11 @@ const Home_sevenSection:React.FC = () => {
 
             <div className="seven_section_div">
                 
+                <div className="seven_sec_first"> 
+
+                    <p className="text-md">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>                    
+                    <a href="#">Read More</a>
+                </div>
             </div>
         </>
     )
