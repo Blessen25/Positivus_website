@@ -160,14 +160,23 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .seven_sec_first {
 
-    display: flex;
+    display: flex;    
+    width: 30%;
     flex-direction: column;
     gap: 20px;
     color: var(--Grey);
+}
+
+.seven_straight_line {
+
+    width: 2px;
+    height: 120px;
+    background-color: var(--Grey);
 }
 
 @media screen and (max-width: 1300px) {
