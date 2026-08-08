@@ -179,6 +179,21 @@
     background-color: var(--Grey);
 }
 
+.seven_button {
+
+    text-decoration: none;
+    color: var(--Primary_Color);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    user-select: none;
+    pointer-events: none;
+}
+
+.seven_arrow {
+
+    transform: rotate(45deg);
+}
 @media screen and (max-width: 1300px) {
 
     .home_first_Imagesec {
@@ -331,6 +346,26 @@
         width: 100%;
         padding: 30px;
     }
+
+    .seven_section_div{
+
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 30px;
+    }
+
+    .seven_sec_first {
+
+        width: 100%;
+    }
+
+    .seven_straight_line {
+
+        width: 100%;
+        height: 2px;
+    }
+
+    
 }
 
 @media screen and (max-width: 575px) {
@@ -376,6 +411,12 @@
     .geturfreebtn {
 
         width: 100%;
+    }
+
+    .seven_section_div{
+
+        border-radius: 20px;
+        padding: 20px;
     }
 }
 
