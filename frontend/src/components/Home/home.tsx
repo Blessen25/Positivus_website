@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { HeaderProps } from "../../interface";
 import "./header.css";
 import "./home.css";
+import "./home_second.css";
 import { Button_Comp_Clr } from "../Button/Button";
 import amazon from "../../../src/assets/images/Logo/Amazon_Logo.png";
 import dribble from "../../../src/assets/images/Logo/Dribble_Logo.png";
@@ -9,7 +10,7 @@ import hubspot from "../../../src/assets/images/Logo/Hubspot_Logo.png";
 import notion from "../../../src/assets/images/Logo/Notion_Logo.png";
 import netflix from "../../../src/assets/images/Logo/Netflix_Logo.png";
 import zoom from "../../../src/assets/images/Logo/Zoom_Logo.png";
-import { Services_Comp } from "../Extra";
+import { Services_Comp, Working_Progress_Comp } from "../Extra";
 
 
 const Home_Comp = () => {
@@ -42,6 +43,7 @@ const Home_Comp = () => {
                 <Home_sixSection />
                 <Home_sevenSection />
                 <Home_eightSection />
+                <Home_nineSection />
             </div>   
         </>
     )
@@ -281,7 +283,11 @@ const Home_nineSection:React.FC = () => {
 
     return(
         <>
-        
+
+            <div className="ninth_section_div">
+
+                <Working_Progress_Comp />
+            </div>
         </>
     )
 }

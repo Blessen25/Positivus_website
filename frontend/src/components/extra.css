@@ -131,6 +131,14 @@
     color: var(--Grey);
 }
 
+.working_progress_div {
+
+    width: 100%;
+    padding: 60px 40px;
+    background-color: var(--Grey);
+    border-radius: 30px;
+}
+
 @media screen and (max-width: 1124px) {
 
     .services_box {

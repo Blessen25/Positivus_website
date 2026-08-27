@@ -24,3 +24,10 @@ export interface Services_Comp_Props {
     service_background_clr ?: string;
     learn_more_clr ?: string;
 }
+
+export interface Working_Progress_Comp_Props {
+
+    Number ?: string;
+    Title ?: string;
+    Description ?: string;
+}

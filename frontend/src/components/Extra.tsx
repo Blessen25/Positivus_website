@@ -29,4 +29,19 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
     )
 }
 
-export { Services_Comp };
+
+
+const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
+
+    return(
+
+        <>  
+
+            <div className="working_progress_div">
+                
+            </div>
+        </>
+    )
+}
+
+export { Working_Progress_Comp, Services_Comp };
