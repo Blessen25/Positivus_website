@@ -38,7 +38,14 @@ const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
         <>  
 
             <div className="working_progress_div">
-                
+
+                <div className="working_progress_num_title">
+                    <p className="h1">{"01"}</p>
+                    <p className="h2">{"Working Progress"}</p>
+                </div>
+                <div className="working_progress_icon">
+                    
+                </div>
             </div>
         </>
     )

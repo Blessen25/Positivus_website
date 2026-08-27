@@ -134,9 +134,16 @@
 .working_progress_div {
 
     width: 100%;
-    padding: 60px 40px;
+    padding: 40px 60px;
     background-color: var(--Grey);
     border-radius: 30px;
+}
+
+.working_progress_num_title {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 @media screen and (max-width: 1124px) {
