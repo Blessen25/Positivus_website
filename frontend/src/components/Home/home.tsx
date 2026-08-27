@@ -41,6 +41,7 @@ const Home_Comp = () => {
                 <Home_fifthsection />
                 <Home_sixSection />
                 <Home_sevenSection />
+                <Home_eightSection />
             </div>   
         </>
     )
@@ -254,6 +255,33 @@ const Home_sevenSection:React.FC = () => {
                     <a href="#" className="seven_button text-md">Learn More<i className="fa-solid fa-arrow-up seven_arrow"></i></a>
                 </div>
             </div>
+        </>
+    )
+}
+
+
+const Home_eightSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="third_section_div">
+
+                    <h3 className="h2 service-content">Our Working Process</h3>
+                    <div className="text-md">
+                       Step-by-Step Guide to Achieving Your Business Goals
+                    </div>
+            </div>
+        </>
+    )
+}
+
+const Home_nineSection:React.FC = () => {
+
+    return(
+        <>
+        
         </>
     )
 }
