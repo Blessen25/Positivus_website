@@ -137,6 +137,8 @@
     padding: 40px 60px;
     background-color: var(--Grey);
     border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .working_progress_num_title {
@@ -145,6 +147,18 @@
     align-items: center;
     gap: 30px;
 }
+
+.working_progress_icon {
+
+    border: 1px solid var(--Black);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media screen and (max-width: 1124px) {
 

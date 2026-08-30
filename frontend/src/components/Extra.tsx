@@ -44,7 +44,7 @@ const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
                     <p className="h2">{"Working Progress"}</p>
                 </div>
                 <div className="working_progress_icon">
-                    
+                    <i className="fa-solid fa-plus h4"></i>
                 </div>
             </div>
         </>
