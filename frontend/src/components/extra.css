@@ -138,6 +138,14 @@
     background-color: var(--Grey);
     border-radius: 30px;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.working_progress_firstdiv {
+
+    display: flex;
     justify-content: space-between;
 }
 
@@ -157,6 +165,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.working_progress_description {
+
+    width: 100%;
+    border: 1px solid var(--Black);
+    height: 1px;
 }
 
 

@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import type { Services_Comp_Props } from '../interface';
 import './extra.css';
 
@@ -33,19 +34,29 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
 const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
+    const [description, setDescription] = useState(true);
     return(
 
         <>  
 
             <div className="working_progress_div">
 
-                <div className="working_progress_num_title">
-                    <p className="h1">{"01"}</p>
-                    <p className="h2">{"Working Progress"}</p>
+                <div className="working_progress_firstdiv">
+
+                    <div className="working_progress_num_title">
+                        <p className="h1">{"01"}</p>
+                        <p className="h2">{"Working Progress"}</p>
+                    </div>
+                    <div className="working_progress_icon">
+                        <i className="fa-solid fa-plus h4"></i>
+                    </div>
                 </div>
-                <div className="working_progress_icon">
-                    <i className="fa-solid fa-plus h4"></i>
-                </div>
+                {description && <>
+
+                    <div className="working_progress_description">
+                    </div>
+                    <p className="text-md">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut.</p>
+                </>}
             </div>
         </>
     )
