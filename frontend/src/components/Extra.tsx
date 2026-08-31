@@ -34,12 +34,12 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
 const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
-    const [description, setDescription] = useState(true);
+    const [description, setDescription] = useState(false);
     return(
 
         <>  
 
-            <div className="working_progress_div">
+            <div className={`working_progress_div ${description ? "working_progress_div_active" : ""}`} >
 
                 <div className="working_progress_firstdiv">
 
@@ -48,7 +48,7 @@ const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
                         <p className="h2">{"Working Progress"}</p>
                     </div>
                     <div className="working_progress_icon">
-                        <i className="fa-solid fa-plus h4"></i>
+                        <i className={`${description ? "fa-solid fa-minus" : "fa-solid fa-plus"} h4`}></i>
                     </div>
                 </div>
                 {description && <>

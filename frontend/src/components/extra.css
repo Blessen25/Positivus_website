@@ -143,6 +143,11 @@
     
 }
 
+.working_progress_div_active {
+
+    background-color: var(--Primary_Color);
+}
+
 .working_progress_firstdiv {
 
     display: flex;
@@ -165,6 +170,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--Grey);
 }
 
 .working_progress_description {
