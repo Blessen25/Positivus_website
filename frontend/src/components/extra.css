@@ -180,6 +180,19 @@
     height: 1px;
 }
 
+.working_progress {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.working_progress_content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 @media screen and (max-width: 1124px) {
 

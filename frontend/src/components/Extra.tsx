@@ -34,30 +34,86 @@ const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
 const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
-    const [description, setDescription] = useState(false);
+    const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+    const progressItems = [
+
+        {
+            number: "01",
+            title: "Working Progress",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
+        },
+        {
+
+            number: "02",
+            title: "Research and Strategy Development",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
+        },
+        {
+            number: "03",
+            title: "Implementation",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
+        },
+        {
+            number: "04",
+            title: "Monitoring and Optimization",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
+        },
+        {
+            number: "05",
+            title: "Reporting and Communication",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
+        },
+        {
+            number: "06",
+            title: "Continual Improvement",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
+        }
+
+    ];
+
+    const HandleClick = (index: number) => {
+
+        setActiveIndex(activeIndex === index ? null : index);
+    };
+    
     return(
 
         <>  
+            
+            <div className="working_progress">
 
-            <div className={`working_progress_div ${description ? "working_progress_div_active" : ""}`} >
+            {progressItems.map((item, index)=>{
+                
+                const IsActive = activeIndex === index;
+                return(
+               <>
+                
+                <div key={index} className={`working_progress_div ${IsActive ? "working_progress_div_active" : ""}`} >
 
                 <div className="working_progress_firstdiv">
 
                     <div className="working_progress_num_title">
-                        <p className="h1">{"01"}</p>
-                        <p className="h2">{"Working Progress"}</p>
+                        <p className="h1">{item.number}</p>
+                        <p className="h2">{item.title}</p>
                     </div>
-                    <div className="working_progress_icon">
-                        <i className={`${description ? "fa-solid fa-minus" : "fa-solid fa-plus"} h4`}></i>
+                    <div className="working_progress_icon" onClick={() => HandleClick(index)}>
+                        <i className={`${IsActive ? "fa-solid fa-minus" : "fa-solid fa-plus"} h4`}></i>
                     </div>
                 </div>
-                {description && <>
-
+                
+                <div className={`working_progress_content ${IsActive ? "working_progress_content_active" : ""}`}>
                     <div className="working_progress_description">
                     </div>
-                    <p className="text-md">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut.</p>
-                </>}
+                    <p className="text-md">{item.description}</p>
+                </div>
+                    
             </div>
+                </>
+                )
+            })}
+            </div>
+            
         </>
     )
 }
