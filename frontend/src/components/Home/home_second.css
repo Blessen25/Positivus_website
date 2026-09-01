@@ -4,3 +4,8 @@
     align-items: center;
     gap: 20px;
 }
+
+.eleven_section_div {
+
+    border: 1px solid var(--Black);
+}

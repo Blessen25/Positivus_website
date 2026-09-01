@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { Services_Comp_Props } from '../interface';
+import type { Services_Comp_Props, Team_Comp_Props } from '../interface';
 import './extra.css';
 
 const Services_Comp:React.FC<Services_Comp_Props> = (Props) => {
@@ -118,4 +118,12 @@ const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
     )
 }
 
-export { Working_Progress_Comp, Services_Comp };
+const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
+
+    return(
+
+        <>
+        </>
+    )
+}
+export { Working_Progress_Comp, Services_Comp, Team_Comp };

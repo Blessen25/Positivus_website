@@ -31,3 +31,10 @@ export interface Working_Progress_Comp_Props {
     Title ?: string;
     Description ?: string;
 }
+
+export interface Team_Comp_Props {
+
+    image ?: string;
+    name ?: string;
+    position ?: string;
+}

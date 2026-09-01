@@ -45,6 +45,7 @@ const Home_Comp = () => {
                 <Home_eightSection />
                 <Home_nineSection />
                 <Home_tenthSection />
+                <Home_elevenSection />
             </div>   
         </>
     )
@@ -318,6 +319,7 @@ const Home_elevenSection: React.FC = () => {
         <>
 
             <div className="eleven_section_div">
+
                 <Team_Comp />
             </div>
         </>
