@@ -44,6 +44,7 @@ const Home_Comp = () => {
                 <Home_sevenSection />
                 <Home_eightSection />
                 <Home_nineSection />
+                <Home_tenthSection />
             </div>   
         </>
     )
@@ -287,6 +288,23 @@ const Home_nineSection:React.FC = () => {
             <div className="ninth_section_div">
 
                 <Working_Progress_Comp />
+            </div>
+        </>
+    )
+}
+
+const Home_tenthSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="third_section_div">
+
+                    <h3 className="h2 service-content">Team</h3>
+                    <div className="text-md">
+                       Meet the skilled and experienced team behind our successful digital marketing strategies
+                    </div>
             </div>
         </>
     )
