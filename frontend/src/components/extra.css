@@ -139,7 +139,9 @@
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
     
 }
 
@@ -152,6 +154,7 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .working_progress_num_title {
@@ -171,6 +174,12 @@
     align-items: center;
     justify-content: center;
     background-color: var(--Grey);
+    cursor: pointer;
+}
+
+.working_progress_icon i {
+
+    transition: transform 0.3s ease;
 }
 
 .working_progress_description {
@@ -178,6 +187,7 @@
     width: 100%;
     border: 1px solid var(--Black);
     height: 1px;
+    margin-top: 20px;
 }
 
 .working_progress {
@@ -188,9 +198,23 @@
 }
 
 .working_progress_content {
-
     display: flex;
     flex-direction: column;
+
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    gap: 0;
+
+    transition:
+        max-height 0.4s ease,
+        opacity 0.4s ease,
+        gap 0.4s ease;
+}
+
+.working_progress_content_active {
+    max-height: 300px;
+    opacity: 1;
     gap: 20px;
 }
 
