@@ -120,9 +120,55 @@ const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
 
 const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
 
+    const TeamMembers = [
+
+        {
+
+            Image:"",
+            Name:"John Smith",
+            Title:"CEO and Founder",
+            Description:"10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+        },
+        {
+
+            Image:"",
+            Name:"Jane Doe",
+            Title:"Director of Operations",
+            Description:"7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+        },{
+
+            Image:"",
+            Name:"Michael Brown",
+            Title:"Senior SEO Specialist",
+            Description:"5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+        },{
+
+            Image:"",
+            Name:"Emily Johnson",
+            Title:"PPC Manager",
+            Description:"3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+        },{
+
+            Image:"",
+            Name:"Brian Williams",
+            Title:"Social Media Specialist",
+            Description:"4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+        },{
+
+            Image:"",
+            Name:"Sarah Kim",
+            Title:"Content Creator",
+            Description:"2+ years of experience in writing and editing, Skilled in creating compelling, SEO-optimized content for various industries",
+        },
+
+    ]
     return(
 
         <>
+
+            <div className="team_comp_div">
+
+            </div>
         </>
     )
 }
