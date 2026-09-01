@@ -244,7 +244,27 @@
         height: auto;
         gap: 20px
     }
+
+    .working_progress_icon {
+
+        width: 50px;
+        height: 50px;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    
+    .working_progress_div  {
+
+        padding: 26px 40px;
+    }
+
+    .working_progress_num_title {
+
+        gap: 20px;
+    }
+}
+
 
 @media screen and (max-width: 576px) {
     
@@ -284,4 +304,26 @@
         width: 120px;
         object-fit: cover;
     }
+
+    .working_progress_div  {
+
+        padding: 15px 20px;
+    }
+
+    .working_progress_icon {
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .working_progress_num_title {
+
+        gap: 15px;
+    }
+
+    .working_progress {
+
+        gap: 15px;
+    }
+
 }

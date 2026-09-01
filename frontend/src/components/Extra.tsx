@@ -46,7 +46,7 @@ const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
         {
 
             number: "02",
-            title: "Research and Strategy Development",
+            title: "Research",
             description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
         },
         {
@@ -56,17 +56,17 @@ const Working_Progress_Comp:React.FC<Services_Comp_Props> = (Props) => {
         },
         {
             number: "04",
-            title: "Monitoring and Optimization",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
+            title: "Optimization",
+            description: "Lorem ionitoring anpsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
         },
         {
             number: "05",
-            title: "Reporting and Communication",
+            title: "Communication",
             description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
         },
         {
             number: "06",
-            title: "Continual Improvement",
+            title: "Improvement",
             description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aspernatur inventore beatae optio rerum officia officiis! Esse quo odit sit, quod sequi magni dolorem corporis, deleniti consectetur fugiat repellendus ut."
         }
 
