@@ -309,3 +309,17 @@ const Home_tenthSection:React.FC = () => {
         </>
     )
 }
+
+const Home_elevenSection: React.FC = () => {
+
+
+    return(
+
+        <>
+
+            <div className="eleven_section_div">
+                <Team_Comp />
+            </div>
+        </>
+    )
+}

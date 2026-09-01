@@ -142,7 +142,7 @@
     gap: 0px;
     overflow: hidden;
     transition: background-color 0.4s ease;
-    
+    box-shadow: 0 6px 0 black;
 }
 
 .working_progress_div_active {
@@ -262,6 +262,17 @@
     .working_progress_num_title {
 
         gap: 20px;
+    }
+
+    .working_progress_div {
+
+        box-shadow: 0 3px 0 black;
+    }
+
+    .services_box {
+
+        box-shadow: 0 3px 0 black;
+
     }
 }
 
