@@ -10,7 +10,7 @@ import hubspot from "../../../src/assets/images/Logo/Hubspot_Logo.png";
 import notion from "../../../src/assets/images/Logo/Notion_Logo.png";
 import netflix from "../../../src/assets/images/Logo/Netflix_Logo.png";
 import zoom from "../../../src/assets/images/Logo/Zoom_Logo.png";
-import { Services_Comp, Working_Progress_Comp } from "../Extra";
+import { Services_Comp, Team_Comp, Working_Progress_Comp } from "../Extra";
 
 
 const Home_Comp = () => {
