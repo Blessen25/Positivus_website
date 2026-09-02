@@ -165,10 +165,12 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
     return(
 
         <>
+            {TeamMembers.map((member, index) => (
 
-            <div className="team_comp_div">
-
-            </div>
+                <div key={index} className="team_member_div">
+                    
+                </div>
+            ))}
         </>
     )
 }
