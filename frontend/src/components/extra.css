@@ -220,9 +220,17 @@
 
 .team_member_div {
 
-    width: 32%;
+    width: 31%;
+    border-radius: 30px;
     height: 300px;
     border: 1px solid var(--Black);
+}
+
+.team_member_img_and_name {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 @media screen and (max-width: 1124px) {

@@ -169,6 +169,10 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
 
                 <div key={index} className="team_member_div">
                     
+                    <div className="team_member_img_and_name">
+
+                        
+                    </div>
                 </div>
             ))}
         </>
