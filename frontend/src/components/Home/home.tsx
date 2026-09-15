@@ -325,3 +325,20 @@ const Home_elevenSection: React.FC = () => {
         </>
     )
 }
+
+const Home_twelthSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            <div className="third_section_div">
+
+                    <h3 className="h2 service-content">Testimonials</h3>
+                    <div className="text-md">
+                       Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services
+                    </div>
+            </div>
+        </>
+    )
+}
