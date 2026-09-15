@@ -247,9 +247,6 @@
 
   top: 10px;
   left: 10px;
-
-  filter: grayscale(100%);
-
   clip-path: polygon(
     50% 5%,
     66% 15%,
@@ -270,7 +267,7 @@
   );
 
   z-index: 3;
-  background-color: var(--Primary_Color);
+  background-color: var(--Primary_Color) !important;
 }
 
 @media screen and (max-width: 1124px) {
