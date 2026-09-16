@@ -172,7 +172,6 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
                     <div className="team_member_img_and_name">
 
                         <div className="team_member_profile_img_div">
-11
                             <div className="profile_img">
 
                             </div>
