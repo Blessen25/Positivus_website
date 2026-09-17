@@ -176,6 +176,9 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
 
                             </div>
                         </div>
+                        <div className="team_member_name">
+                            
+                        </div>
 
                     </div>
                 </div>
