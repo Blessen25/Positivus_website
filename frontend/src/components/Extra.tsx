@@ -185,6 +185,10 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
                         </div>
 
                     </div>
+                    <hr className="team_member_hr"></hr>
+                    <div className="team_member_description">
+                        <p className="text-md" style={{fontWeight:"500"}}>{member.Description}</p>
+                    </div>
                 </div>
             ))}
         </>

@@ -224,6 +224,9 @@
     padding: 30px;
     border-radius: 30px;
     border: 1px solid var(--Black);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .team_member_img_and_name {
@@ -272,6 +275,13 @@
     font-size: 26px;
     color: var(--Black);
     background: transparent;
+}
+
+.team_member_hr {
+
+    width: 100%;
+    background-color: var(--Black);
+    height: 3px;
 }
 
 @media screen and (max-width: 1124px) {
