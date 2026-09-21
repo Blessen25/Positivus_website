@@ -177,7 +177,11 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
                             </div>
                         </div>
                         <div className="team_member_name">
-                            
+                            <div className="linkdin-icon">
+                                <i className="fa-brands fa-square-linkedin"></i>
+                            </div>
+                            <p className="h6">{member.Name}</p>
+                            <p className="text-md">{member.Title}</p>
                         </div>
 
                     </div>
