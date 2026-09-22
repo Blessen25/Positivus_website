@@ -124,32 +124,32 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
 
         {
 
-            Image:"../../src/assets/images/alexandra.png",
+            Image:"../../src/assets/images/ian.png",
             Name:"John Smith",
             Title:"CEO and Founder",
             Description:"10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
         },
         {
 
-            Image:"../../src/assets/images/alexandra.png",
+            Image:"../../src/assets/images/suad.png",
             Name:"Jane Doe",
             Title:"Director of Operations",
             Description:"7+ years of experience in project management and team leadership. Strong organizational and communication skills",
         },{
 
-            Image:"../../src/assets/images/alexandra.png",
+            Image:"../../src/assets/images/christian.png",
             Name:"Michael Brown",
             Title:"Senior SEO Specialist",
             Description:"5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
         },{
 
-            Image:"../../src/assets/images/alexandra.png",
+            Image:"../../src/assets/images/feli.png",
             Name:"Emily Johnson",
             Title:"PPC Manager",
             Description:"3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
         },{
 
-            Image:"../../src/assets/images/alexandra.png",
+            Image:"../../src/assets/images/chanvre.png",
             Name:"Brian Williams",
             Title:"Social Media Specialist",
             Description:"4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
@@ -173,7 +173,7 @@ const Team_Comp:React.FC<Team_Comp_Props> = (Props) => {
 
                         <div className="team_member_profile_img_div">
                             <div className="profile_img">
-                                <img src="../../src/assets/images/alexandra.png" alt="Team Members" className='profile_img_teammember'/>
+                                <img src={member.Image} alt="Team Members" className='profile_img_teammember' loading="lazy"/>
                             </div>
                         </div>
                         <div className="team_member_name">
