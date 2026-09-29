@@ -358,7 +358,13 @@
         box-shadow: 0 3px 0 black;
 
     }
+
+    .team_member_div {
+
+        width: 100%;
+    }
 }
+
 
 
 @media screen and (max-width: 576px) {
