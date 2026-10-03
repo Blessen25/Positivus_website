@@ -362,7 +362,11 @@
     .team_member_div {
 
         width: 100%;
+        padding: 20px;
     }
+
+
+    
 }
 
 
@@ -427,4 +431,15 @@
         gap: 15px;
     }
 
+    .profile_img  {
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .team_member_div {
+
+        padding: 15px;
+        gap: 15px;
+    }
 }
