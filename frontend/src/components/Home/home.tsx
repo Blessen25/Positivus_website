@@ -47,6 +47,7 @@ const Home_Comp = () => {
                 <Home_tenthSection />
                 <Home_elevenSection />
                 <Home_twelthSection />
+                <Home_thirteenSection />
             </div>   
         </>
     )
@@ -350,7 +351,10 @@ const Home_thirteenSection:React.FC = () => {
 
         <>
 
-            
+            <div className="contactus-div">
+
+                
+            </div>
         </>
     )
 }
