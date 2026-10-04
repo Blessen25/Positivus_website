@@ -46,6 +46,7 @@ const Home_Comp = () => {
                 <Home_nineSection />
                 <Home_tenthSection />
                 <Home_elevenSection />
+                <Home_twelthSection />
             </div>   
         </>
     )
@@ -334,11 +335,22 @@ const Home_twelthSection:React.FC = () => {
 
             <div className="third_section_div">
 
-                    <h3 className="h2 service-content">Testimonials</h3>
+                    <h3 className="h2 service-content">Contact Us</h3>
                     <div className="text-md">
-                       Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services
+                       Connect with Us: Let's Discuss Your Digital Marketing Needs
                     </div>
             </div>
+        </>
+    )
+}
+
+const Home_thirteenSection:React.FC = () => {
+
+    return(
+
+        <>
+
+            
         </>
     )
 }
