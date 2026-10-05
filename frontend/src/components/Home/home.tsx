@@ -353,7 +353,12 @@ const Home_thirteenSection:React.FC = () => {
 
             <div className="contactus-div">
 
-                
+                <div className="contactus-details">
+
+                </div>
+                <div className="contactus-Img">
+                    
+                </div>
             </div>
         </>
     )
